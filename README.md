@@ -1,4 +1,4 @@
-![Android Logo](https://upload.wikimedia.org/wikipedia/commons/3/3e/Android_logo_2019.svg)
+![Android Logo](https://raw.githubusercontent.com/github/explore/main/topics/android/android.png)
 
 hi my name is carson this is one of my first apk vm projects
 
