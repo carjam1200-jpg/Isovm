@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VM stopped"/>
+
+    <Button
+        android:id="@+id/btnImportIso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Import ISO"/>
+
+    <Button
+        android:id="@+id/btnStartVm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start VM"/>
+
+    <Button
+        android:id="@+id/btnStopVm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop VM"/>
+
+    <!-- Placeholder for VNC display -->
+    <FrameLayout
+        android:id="@+id/vncContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#000000" />
+
+</LinearLayout>
