@@ -1,0 +1,3 @@
+# Ignore build outputs
+/native/qemu-build/output/
+/native/qemu-build/qemu-src/
